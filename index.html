@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Page</title>
+        
+        <link rel = "stylesheet" type ="text/css" href="portStyle.css">
+        
+    </head>
+    <body>
+        <div class = "container">
+            <nav class = "navbar">
+                <ul>
+                    <li><button onclick="scrollWin(0,465)">Skills</button></li>
+                    <li><button onclick="scrollWin(0,1020)">About</button></li>
+                    <li><button onclick="scrollWin(0,1500)">Contact</button></li>
+                </ul>
+
+            </nav>
+    <header class= "header">
+        <img src = "koder.png">
+        <h2>Hello! My name is Anthony Covin and I am an up-and-coming developer based out of Minneapolis, Minnesota</h2>
+
+    </header>
+        </div>
+        <div class ="skills">
+            <h1>Skills and Technologies</h1>
+            <hr>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <Li>SQL</Li>
+                <li>Project Lifecycle</li>
+                <li id="bottom">MS Office</li>
+            </ul>
+            <p></p>
+        </div>
+        <div class="about">
+            <h1>About</h1>
+            <hr>
+            <p id=spaced></p>
+            <p>
+                I have been cooking professionally for the past 6 years, after being inspired by meeting some developers I decided that I wanted to go back to school. I am not pursuuing an AAS in Software Development from Minneapolis College.
+                Some other things I enjoy are food, traveling, fitness, music and basketball. 
+                Some goals I hope to accomplish through technology is bringing information about health and wellness to a larger audience.
+            </p>
+            
+        
+        </div>
+        <div class = "contact">
+            <h1>Contact</h1>
+            <hr>
+            
+            
+            
+            <img src = "email.png" title = "email">
+            <p id = "myEmail">tony.spicer.covin@gmail.com</p>
+            <br>
+            <p id = "intro">Here is my github where you can find some of the projects I have worked on</p>
+            <img src = "hub.png" title = "github">
+            <a id = "gitlink" href = "https://github.com/tonyspicervovin">https://github.com/tonyspicervovin</a>
+        </div>
+        
+        
+       
+    <script>
+        function scrollWin(x,y){
+            window.scrollBy(x,y);
+        }
+           
+           
+    </script>
+
+    </body>
+</html>
